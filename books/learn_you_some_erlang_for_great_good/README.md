@@ -29,6 +29,6 @@ $ erlc mymodule.erl
 Using the function `c/1` inside the erlang shell, giving the module name as argument.
 
 ```erlang
-1> cd("path/to/file")
-2> c(mymodule)
+1> cd("path/to/file").
+2> c(mymodule).
 ```
