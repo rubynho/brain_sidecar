@@ -32,3 +32,11 @@ Using the function `c/1` inside the erlang shell, giving the module name as argu
 1> cd("path/to/file").
 2> c(mymodule).
 ```
+
+Compile erlang files to native code is also possible using the `native` flag in the shell, like so:
+
+```erlang
+1> c(mymodule,[native]).
+```
+
+Native code is not cross platform.
