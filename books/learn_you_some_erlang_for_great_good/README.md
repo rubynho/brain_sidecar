@@ -40,3 +40,7 @@ Compile erlang files to native code is also possible using the `native` flag in 
 ```
 
 Native code is not cross platform.
+
+### Module info
+
+During code compilation two functions are injected and exported into the modules, they are `module_info/0` and `module_info/1` and is used to get all kinds of informations about a module.
