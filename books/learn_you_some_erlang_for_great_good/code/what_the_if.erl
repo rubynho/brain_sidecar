@@ -1,5 +1,5 @@
 -module(what_the_if).
--export([heh_fine/0, oh_god/1]).
+-export([heh_fine/0, oh_god/1, help_me/1]).
 
 % This function will log some warnings whem compiled and when called will raise the following error:
 %
@@ -22,3 +22,14 @@ oh_god(N) ->
     if N =:= 2 -> might_succeed;
     true -> always_does % this is Erlang's if's 'else!'
     end.
+
+% Example of an if expression with multiple guards. Here is easy to see how the lack of a true branch would mess things up, considering Erlang has no nil return.
+
+help_me(Animal) ->
+    Talk = if Animal == cat   -> "meow";
+	       Animal == beef -> "mooo";
+	       Animal == dog  -> "bark";
+	       Animal == tree -> "bark";
+	       true -> "alelek"
+	    end,
+    {Animal, "says " ++ Talk ++ "!"}.
