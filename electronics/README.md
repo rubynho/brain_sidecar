@@ -28,7 +28,7 @@ Everything that it pertains to electricity and electronics is traceable back to 
 ### Elements
 
 - Basic building blocks of nature.
-- Cannot be reduce to a simpler substance by chemical means.
+- Cannot be reduced to a simpler substance by chemical means.
 - Over 100 known elements (literally **everything** is made out of these 100 plus elements).
 
 ### Parts of an atom
@@ -48,6 +48,50 @@ Everything that it pertains to electricity and electronics is traceable back to 
 As an electronic technician the most important part of an atom is the Electrons.
 
 [./Parts-of-an-Atom-Diagram.jpg](./Parts-of-an-Atom-Diagram.jpg)
+
+### Electric charge
+
+Charge is an electrical property of the atomic particles that makes up the matter, measured in
+Coulumbs (C).
+
+The electric charge of an electron is negative and have a magnitude of 1.162 x 10¯¹⁶, in the other
+hand a proton os positively charged with the same magnitude of the electron. An atom having the same
+number os protons and electrons has a neutral charge.
+
+### Electric current
+
+Current is the flow of charge per unit of time, measured in ampères (A). 
+
+Mathematically, the relation among current (i), charge (q) and time (t) is:
+
+```
+    dq
+i ≜ -
+    dt
+```
+
+where the current is measured in ampères and `1 ampère = 1 coulumb/second`.
+
+André-Marie Ampère (1775-1836) defined electric current and developed a way to measure it.
+
+### Current types
+
+#### Direct current
+
+A direct current (I) is a current that remains constant over time.
+
+#### Alternating current
+
+An alternating current (i) is a current that varies over time, having a sine wave shape.
+
+### Voltage
+
+WIP
+
+### Law of conservation of charge
+
+This law says that the charges can't be created or destroyed, only transferred. Then the sum of all
+electric charges of a system is constant.
 
 ### Shopping
 
