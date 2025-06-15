@@ -16,3 +16,17 @@ Using `-a` flag will append the information instead of overwriting.
 ```sh
 echo 'append hello, world' | tee -a /etc/protected-file.txt
 ```
+
+### ss
+
+It's an utility used to investigate sockets.
+
+To list all listening UDP sockets:
+
+Options
+- u list UDP sockets
+- l that are listening
+- n numerically, not human-readable
+```sh
+ss -uln
+```
