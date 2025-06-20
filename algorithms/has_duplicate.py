@@ -9,11 +9,11 @@ class Solution:
 
     @staticmethod
     def has_duplicate(nums: list[int]) -> bool:
-        checked = {}
+        seen = set()
 
         for n in nums:
-            if checked.get(n): return True
-            checked[n] = True
+            if n in seen: return True
+            seen.add(n)
 
         return False
 
