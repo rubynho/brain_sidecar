@@ -30,3 +30,12 @@ Options
 ```sh
 ss -uln
 ```
+
+### lsof
+
+Options
+
+- (-i arg) can be used to check which process in bind to some port
+```sh
+lsof -i :4000
+```
