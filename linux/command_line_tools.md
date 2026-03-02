@@ -39,3 +39,15 @@ Options
 ```sh
 lsof -i :4000
 ```
+
+### xprop
+
+Utility to query X11 window properties.
+
+Useful to identify which process owns a specific window (dock, panel, frozen app, etc.).
+
+To get the PID of a window, run the command below and click on the target window:
+
+```sh
+xprop | grep _NET_WM_PID
+```
