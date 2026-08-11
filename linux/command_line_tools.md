@@ -51,3 +51,11 @@ To get the PID of a window, run the command below and click on the target window
 ```sh
 xprop | grep _NET_WM_PID
 ```
+
+### nc
+
+Test a network connection on a specific port.
+
+```sh
+nc -zv 192.168.1.10 5432
+```
